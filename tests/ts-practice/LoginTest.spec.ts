@@ -55,5 +55,6 @@ test.describe("Practice Test Automation", () => {
         await login.enterPassword("Password123");
         await login.clickSubmitButton();
         await expect(homePage.loginMessage).toBeVisible();
+        //for sample git branch practice
     })
 });
